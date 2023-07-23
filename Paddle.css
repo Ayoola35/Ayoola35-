@@ -1,0 +1,566 @@
+body {
+    margin: 0px;
+    background-color: #FFFFFF;
+}
+
+.main-header h1 {
+    color: #BA55D3;
+    padding-left: 10px;
+}
+
+.Main-Content-Area {
+    padding: 0 16px;
+}
+
+.Header-1 {
+    font-size: 50px;
+    width: 100%;
+    color: #0b132a;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.sign-in {
+    width: 150px;
+    size: 16px;
+    line-height: 18.96px;
+    color: #0b132a;
+}
+
+.Paragraph-1 {
+    font-size: 16px;
+    width: 100%;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+/* .Web-Image{
+    width: 762px;
+    height: 508px;
+    float: right;
+    margin-right: 20px;
+    max-width: 100%;
+} */
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.Page-info li {
+    list-style: none;
+    align-content: space-around;
+    padding: 5px 10px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.Page-info ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Sign-Up-Button {
+    color: #BA55D3;
+    border-radius: 5px;
+    border-color: #BA55D3;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+}
+
+.Get-Started-Button {
+    background-color: #BA55D3;
+    border-radius: 4px;
+    border-color: #BA55D3;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    width: 250px;
+    height: 60px;
+}
+
+.Getting-Started {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.FAQS {
+    width: 100%;
+    /*height: 100px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*border: 2px solid #eeeff2;*/
+    box-sizing: border-box;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: #FFFFFF;
+}
+
+.FAQS>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FAQS img {
+    margin-right: 8px;
+}
+
+.faqs-details .numbers{
+    width: 49px;
+    height: 30px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #0B132A;
+}
+
+.faqs-details span{
+    width: 91px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #4F5665;
+}
+
+.faqs-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.Features {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Piano {
+    float: left;
+    margin-right: 20px;
+    max-width: 100%;
+    margin-left: 40px;
+}
+
+.Main-Features {
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+.Features-provided {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #0b132a;
+}
+
+.About-Features {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 0;
+    color: #4f5665;
+}
+
+.Features-List li {
+    color: #BA55D3;
+}
+
+.Plans-available {
+    display: flex;
+    /*   width: 330px;
+        height: 760px; */
+    border-radius: 10px;
+    background: #ffffff;
+    border: 2px solid #DDDDDD;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Plans {
+    border-radius: 10px;
+    border: 2px solid #DDDDDD;
+    padding: 20px;
+}
+
+
+.About-Plans {
+    position: relative;
+}
+
+.plans-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.About-Plans h1 {
+    width: 383.41px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    color: #0b132a;
+}
+
+.About-Plans p {
+    width: 555px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4f5665;
+    line-height: 30px;
+}
+
+.Plans img {
+    width: 207px;
+    height: 190.02px;
+}
+
+.Plans h1 {
+    width: 82px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #0b132a;
+    text-align: center;
+}
+
+.Plans li {
+    width: 119px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4f5665;
+    text-align: center;
+}
+
+.Plans button {
+    box-sizing: border-box;
+    width: 177.88px;
+    height: 45px;
+    border: 3px solid #BA55D3;
+    border-radius: 4px;
+    color: #BA55D3;
+}
+
+.Plans button.premium-button {
+    box-sizing: border-box;
+    width: 177.88px;
+    height: 45px;
+    border: 3px 3px solid #BA55D3;
+    border-radius: 4px;
+    color: #DDDDDD;
+    background-color: #BA55D3;
+}
+
+.Getting-Started-Content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Getting-Started-Content h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    text-align: center;
+    color: #0b132a;
+    margin-left: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Getting-Started-Content p {
+    font-style: normal;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+}
+
+.Getting-Started-Content button {
+    width: 266.81px;
+    height: 67.5px;
+    background: #BA55D3;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.Content-Images img.Getting-Started-Content {
+    background: #dde0e4;
+    width: 190px;
+    height: 60px;
+    flex-wrap: wrap;
+}
+
+.Customer-review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Customer-review h1 {
+    width: 447.81px;
+    height: 100px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+}
+
+.Customer-review p {
+    width: 555px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+}
+
+.Customers {
+    display: flex;
+    text-align: center;
+    border: 2px solid #DDDDDD;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    background: #ffffff;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+
+.Customer {
+    box-sizing: border-box;
+    border: 2px solid #DDDDDD;
+    border-radius: 4px;
+}
+
+.Customers img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.Customers h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B132A;
+    text-align: center;
+}
+
+.Customer-1 {
+    background: #FFFFFF;
+    border: 3px solid #BA55D3;
+    border-radius: 4px;
+}
+
+.Customers address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+    text-align: center;
+}
+
+.Customers p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #0B132A;
+}
+
+.Subscribe {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 25px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+}
+
+.Subscribe h1 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    align-items: center;
+    color: #0B132A;
+    width: 371.61px;
+    height: 80px;
+}
+
+.Subscribe p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.button-style {
+    display: flex;
+    align-items: center;
+}
+
+.Subscribe button {
+    width: 250px;
+    height: 60px;
+    background: #BA55D3;
+    border-radius: 4px;
+    float: right;
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.first-row h1 {
+    width: 91px;
+    height: 38px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    color: #BA55D3;
+}
+
+.first-row p {
+    width: 340px;
+    height: 61.57px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.copy {
+    width: 114px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+footer ul {
+    list-style: none;
+    width: 67px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+@media only screen and (max-width: 570px) {
+    .main-header{
+        display: block;
+        float: none;
+        width: 100%;
+        justify-content: space-between;
+        text-align: right;
+    }
+
+    .Getting-Started{
+        width: 100%;
+    }
+
+    .faqs-details{
+        align-items: center;
+        text-align: center;
+    }
+
+    .Main-Features{
+        flex: none;
+        width: 100%;
+    }
+
+    .plans-about{    
+        flex: none;
+    }
+
+    .Plans-available{
+        width: 100%;
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .Plans li {
+        text-align: center;
+        display: block;
+        float: none;
+        width: 100%;
+    }
+
+    .Plans h1 h2{
+            text-align: center;
+            display: block;
+            float: none;
+            width: 100%;
+    }
+
+    .Starting-content{
+        text-align: center;
+    }
+
+    .Content-Images{
+         display: flex;
+         padding-top: 3rem;
+         width: 100%;
+         padding-right: 1.7rem;
+    }
+
+    footer{
+        justify-content: space-between;
+        width: 100%;
+    }
+}
